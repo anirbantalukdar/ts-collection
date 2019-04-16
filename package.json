@@ -1,14 +1,16 @@
 {
 	"name": "ts-collection",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
-	"files": ["lib/**/*"],
+	"files": [
+		"lib/**/*"
+	],
 	"scripts": {
 		"build": "tsc",
-		"prepare" : "npm run build",
-		"prepublishOnly" : "npm test",
+		"prepare": "npm run build",
+		"prepublishOnly": "npm test",
 		"test": "mocha --require ts-node/register  --recursive src/test/**/*.ts"
 	},
 	"repository": {
