@@ -4,10 +4,11 @@
 	"description": "",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
+	"files": ["lib/**/*"],
 	"scripts": {
-		"build": "ts-node",
+		"build": "tsc",
 		"prepare" : "npm run build",
-		"prepublishOnly" : "npm test && npm run lint",
+		"prepublishOnly" : "npm test",
 		"test": "mocha --require ts-node/register  --recursive src/test/**/*.ts"
 	},
 	"repository": {
