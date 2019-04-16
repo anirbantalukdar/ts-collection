@@ -14,6 +14,10 @@ I am writing the mocha based unit test cases one by one. so for the classes whos
 cases are already written I believe this is safe to use. For rest I am adding support 
 one by one.
 
+#npmjs.
+
+the library is published in npmjs with url 'ts-collection'
+
 # my Profile.
 
 I am Anirban Talukdar working as a freelance developer. I am working on C/C++, 
