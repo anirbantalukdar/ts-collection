@@ -1,0 +1,43 @@
+{
+	"name": "ts-collection",
+	"version": "1.0.0",
+	"description": "",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"scripts": {
+		"build": "ts-node",
+		"prepare" : "npm run build",
+		"prepublishOnly" : "npm test && npm run lint",
+		"test": "mocha --require ts-node/register  --recursive src/test/**/*.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/anirbantalukdar/ts-collection.git"
+	},
+	"keywords": [
+		"collection",
+		"typescript",
+		"Java",
+		"Based"
+	],
+	"author": "Anirban Talukdar",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/anirbantalukdar/ts-collection/issues"
+	},
+	"homepage": "https://github.com/anirbantalukdar/ts-collection#readme",
+	"devDependencies": {
+		"@types/chai": "4.1.7",
+		"@types/mocha": "5.2.6",
+		"@types/lodash": "^4.14.118",
+		"@types/assert": "1.4.2",
+		"chai": "^4.2.0",
+		"lodash": "^4.17.11",
+		"mocha": "^5.2.0",
+		"nyc": "13.3.0",
+		"ts-loader": "^5.3.1",
+		"ts-node": "^8.0.2",
+		"typescript": "^3.3.3",
+		"assert": "^1.4.1"
+	}
+}
