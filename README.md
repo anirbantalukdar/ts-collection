@@ -8,13 +8,13 @@ There is some tweak as typescript templates are not as equivalent as Java.
 I dont know much about license terms. Please let me know (talukdar.anirban@gmail.com) 
 if you have any issues with the license. I thought MIT is a good choice.
 
-#usability
+# usability
 
 I am writing the mocha based unit test cases one by one. so for the classes whose test
 cases are already written I believe this is safe to use. For rest I am adding support 
 one by one.
 
-#npmjs.
+# npmjs.
 
 the library is published in npmjs with url 'ts-collection'
 
