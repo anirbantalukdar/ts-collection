@@ -9,9 +9,7 @@
 	],
 	"scripts": {
 		"build": "tsc",
-		"prepare": "npm run build",
-		"prepublishOnly": "npm test",
-		"test": "mocha --require ts-node/register  --recursive src/test/**/*.ts"
+		"prepare": "npm run build"
 	},
 	"repository": {
 		"type": "git",
