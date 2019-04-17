@@ -18,6 +18,16 @@ one by one.
 
 the library is published in npmjs with url 'ts-collection'
 
+# API documentation
+
+For API documentation please refer to Javadoc API documentation 1.8
+due to. There is some tweak for map interface becuase of method override 
+limitation in typescript. for index based operation I have appended 'At" 
+like set, setAt to differentiate these as seperate methods.
+
+# examples.
+please refer to test cases of the GitHub project git@github.com:anirbantalukdar/ts-collection-test.git
+
 # my Profile.
 
 I am Anirban Talukdar working as a freelance developer. I am working on C/C++, 

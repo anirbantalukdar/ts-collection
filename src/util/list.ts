@@ -1,5 +1,4 @@
 import { Collection } from "./collection";
-import { Comparator } from "./comparator";
 import { ListIterator } from "./listiterator";
 
 export interface List<E> extends Collection<E> {
