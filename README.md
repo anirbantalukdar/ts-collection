@@ -20,9 +20,9 @@ the library is published in npmjs with url 'ts-collection'
 
 # API documentation
 
-For API documentation please refer to Javadoc API documentation 1.8
-due to. There is some tweak for map interface becuase of method override 
-limitation in typescript. for index based operation I have appended 'At" 
+For API documentation please refer to Javadoc API documentation 1.8. 
+There is some tweak for map interface becuase of method override 
+limitation in typescript. For index based operation I have appended 'At" 
 like set, setAt to differentiate these as seperate methods.
 
 # examples.
