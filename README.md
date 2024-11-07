@@ -25,12 +25,3 @@ There is some tweak for map interface becuase of method override
 limitation in typescript. For index based operation I have appended 'At" 
 like set, setAt to differentiate these as seperate methods.
 
-# examples.
-please refer to test cases of the GitHub project git@github.com:anirbantalukdar/ts-collection-test.git
-
-# my Profile.
-
-I am Anirban Talukdar working as a freelance developer. I am working on C/C++, 
-Qt, OpenGL/WebGL/ThreeJs, Angular/React based technologies.
-
-Please contact me if you have any job opportunity in your organization/project.
